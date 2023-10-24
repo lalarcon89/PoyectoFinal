@@ -1,0 +1,36 @@
+.video-container{
+    width: 100%;
+    max-height: 400px;
+    height: auto;
+}
+
+#careaga{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #0e0a5a;
+    font-size: 22px;
+}
+
+#contacto {
+    text-align: center;
+}
+
+section#quienes_somos .comentario {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section#quienes_somos .comentario p {
+    margin: 0;
+}
+
+section#quienes_somos .comentario .nombre {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.inicio-section {
+    margin: 5px;
+    /* Otros estilos que desees aplicar a esta sección */
+}

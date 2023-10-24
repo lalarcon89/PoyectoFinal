@@ -1,0 +1,40 @@
+#imagenRio{
+    display: flex;
+    width: 100%;
+    max-height: 550px;
+    height: auto;
+    border: 1px solid rgb(46, 27, 214);
+}
+
+/**
+* Galería de imágenes
+* 
+* display: grid; crea una grilla
+* grid-template-columns setea la cantidad de columnas por fila
+* grid-gap setea un margen entre celda y celda
+*/
+.imagenes-servicio {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1px;
+}
+
+.imagenes-servicio.largo {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/**
+* Imágenes de fondo
+* 
+* background-position: center; Las imágenes se colocan al centro del contenedor
+* background-size: cover;   Las imágenes se estiran hasta ocupar la totalidad del contenedor
+*                           Puede que partes de la imágen no se muestren, pero no se deforma
+* background-repeat: no-repeat; Evita que las imágenes se repitan para intentar cubrir el espacio sobrante
+*/
+.imagenes-servicio .imagenes {
+    width: 100%;
+    height: 140px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

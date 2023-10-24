@@ -1,0 +1,40 @@
+/* Mixin para estilos de elementos en el menú */
+@mixin estilos-menu-item {
+    display: inline;
+    margin-right: 120px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+/* Mixin para estilos de enlaces en el menú */
+@mixin estilos-menu-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+/* Mixin para estilos del botón responsive */
+@mixin estilos-responsive-button {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Aplicación de mixins a los selectores */
+
+nav ul li {
+    @include estilos-menu-item;
+}
+
+nav ul li a {
+    @include estilos-menu-link;
+}
+
+.responsive-btn {
+    @include estilos-responsive-button;
+}

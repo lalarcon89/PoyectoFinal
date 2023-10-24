@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía de Pesca - Contacto</title>
+    
+    <!-- Etiqueta meta para descripción de la página -->
+    <meta name="description" content="Contacta a nuestra guía de pesca para reservas y consultas. Ofrecemos emocionantes aventuras en el río Paraná y sus afluentes.">
+    
+    <!-- Etiqueta meta para palabras clave (keywords) -->
+    <meta name="keywords" content="guía de pesca, pesca deportiva, río Paraná, reservas de pesca, consultas de pesca, surubí, dorado, pesca responsable">
+    
+    <!-- Etiqueta meta para autor -->
+    <meta name="author" content="Leandro Alarcon">
+    
+    <!-- Etiqueta meta para robots ( permites que los motores de búsqueda indexen tu página) -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Etiqueta meta para la ubicación geográfica -->
+    <meta name="geo.region" content="AR-B" />
+    <meta name="geo.placename" content="Buenos Aires" />
+    
+    <!-- Etiqueta meta para idioma >
+    <meta http-equiv="Content-Language" content="es">
+    
+    <-- Etiqueta meta para enlazar a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Etiqueta meta para preconectar a Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Enlace a Google Fonts - Montserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a Google Fonts - Lobster -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    
+    <!-- Etiqueta meta para preconectar a Google Fonts (segunda instancia) -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Enlace a Google Fonts - Barlow Condensed (wght@100) -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
+    
+    <!-- Etiqueta meta para preconectar a Google Fonts (tercera instancia) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- Etiqueta meta para preconectar a fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Enlace a Google Fonts - Barlow Condensed (wght@100) y Pacifico -->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <!-- Enlaza tu archivo CSS personalizado -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Etiqueta meta para el icono del sitio (favicon) -->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR76SgyVBnGxTKUL3pDSFUFI4_OwhvR83Pi_atu5N1wjg&s">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <a href="../index.html">
+                <img id="logo" src="./assest/fotos/imag/logo.avif" alt="Logo de Guía de Pesca Leandro">
+            </a>
+            
+            <header>
+                <h1>Guía de Pesca Camba</h1>
+
+                <a href="#" class="responsive-btn">Menú</a>
+                
+                <nav id="menu">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="./servicios.html">Servicios</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./quienessosmos.html">Quiénes Somos</a></li>
+                        <div class="desplegable">
+                            <button class="b-desplegable">Torneos</button>
+                            <div class="desplegable-content">
+                                <a href="http://www.goyasurubi.com/index/" target="_blank">Concurso Surubí Goya</a>
+                                <a href="https://surubi.com/" target="_blank">Concurso Surubí Reconquista</a>
+                                <a href="https://festivalesargentina.com/fiesta-nacional-de-la-pesca-del-amarillo/" target="_blank">Concurso Amarillo Helvecia</a>
+                            </div>
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para reservas y consultas, por favor complete el siguiente formulario:</p>
+            
+            <!-- Formulario con Bootstrap -->
+            <form class="my-bootstrap-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    
+        <footer>
+            <!-- Agrega íconos para WhatsApp, Facebook e Instagram con enlaces -->
+            <div class="redes-sociales">
+                <a href="https://api.whatsapp.com/send?phone=543413393923" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/camba.ranchada" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/TUUSUARIODEINSTAGRAM/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+            <hr> &copy; 2023 Guía de Pesca. Todos los derechos reservados.</hr>
+        </footer>
+    </div>
+
+    <!-- Enlace a Bootstrap JS y jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>

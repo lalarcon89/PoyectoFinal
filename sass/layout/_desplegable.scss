@@ -1,0 +1,49 @@
+.b-desplegable {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight:normal ;
+}
+
+/* Estilo del botón */
+.b-desplegable {
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 0;
+}
+
+.desplegable {
+    position: relative;
+    display: inline-block;
+}
+
+/* Estilo del contenido desplegable */
+.desplegable-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 12px;
+}
+
+/* Estilo de los enlaces dentro del contenido desplegable */
+.desplegable-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Cambiar el color del enlace al pasar el ratón por encima */
+.desplegable-content a:hover {
+    background-color: #12819c;
+}
+
+/* Mostrar el contenido desplegable cuando el botón se haga hover */
+.desplegable:hover .desplegable-content {
+    display: block;
+}

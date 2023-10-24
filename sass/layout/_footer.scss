@@ -1,0 +1,29 @@
+/* Mixin para estilos del footer */
+@mixin estilos-footer {
+    background-color: #1c62ad;
+    color: #eeeaea;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Mixin para estilos de los íconos de redes sociales */
+@mixin estilos-iconos-redes-sociales {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ebeaf0;
+    font-size: 24px;
+}
+
+/* Aplicación de mixins a los selectores */
+
+footer {
+    @include estilos-footer;
+}
+
+.redes-sociales a {
+    @include estilos-iconos-redes-sociales;
+}

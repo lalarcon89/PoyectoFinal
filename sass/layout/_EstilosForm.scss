@@ -1,0 +1,50 @@
+/* Estilos para el formulario */
+form {
+    max-width: 450px;
+    background-color: #f4f4f4;
+    padding: 22px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 5 9px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+form label {
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button[type="submit"] {
+    background-color: #2967aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    display: block;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0e0a5a;
+}

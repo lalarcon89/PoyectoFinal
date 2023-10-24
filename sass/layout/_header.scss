@@ -1,0 +1,38 @@
+/* Mixin para estilos del header */
+@mixin estilos-header {
+    color: #ffffff;
+    padding: 1px 0;
+    text-align: center;
+}
+
+/* Mixin para estilos de la clase .header */
+@mixin estilos-clase-header {
+    background-color: #1c62ad;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Mixin para estilos del logo */
+@mixin estilos-logo {
+    max-width: max-content; /* Ancho máximo del logo */
+    float: left; /* Posiciona el logo a la derecha */
+    max-height: 110px; /* Establece una altura máxima para el logo (ajusta según sea necesario) */
+    margin-left: 0px; /* Espacio entre el logo y el texto (ajusta según sea necesario) */
+}
+
+/* Aplicación de mixins a los selectores */
+
+header {
+    @include estilos-header;
+}
+
+.header {
+    @include estilos-clase-header;
+}
+
+#logo {
+    @include estilos-logo;
+}
