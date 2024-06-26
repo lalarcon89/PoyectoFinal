@@ -4,6 +4,7 @@ function autoChangeSlide() {
     const index = Array.from(slides).indexOf(currentSlide);
     const nextIndex = (index + 1) % slides.length;
     slides[nextIndex].click();
+
 }
 
 setInterval(autoChangeSlide, 5000);
